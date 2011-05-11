@@ -14,6 +14,8 @@
 *                                                                              *
 * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * */
 
+namespace collide\app\public_folder;
+
 // start output buffering to allow printing before view loading
 ob_start();
 

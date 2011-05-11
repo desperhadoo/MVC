@@ -1,4 +1,7 @@
-<?php if( !defined( 'ROOT_PATH' ) ) die( '403: Forbidden' );
+<?php
+namespace collide\core\config;
+
+if( !defined( 'ROOT_PATH' ) ) die( '403: Forbidden' );
 
 /* * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *
 *                                                                              *
@@ -16,7 +19,7 @@
 * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * */
 
 /**
- * Define core constants used by core libraries and scripts
+ * Define core constants used by core libraries and scripts.
  *
  * @package     Collide MVC Core
  * @subpackage  Config
